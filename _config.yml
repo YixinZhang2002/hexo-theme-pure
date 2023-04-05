@@ -33,7 +33,7 @@ site:
     url: ../images/logo.png
   title: Hexo # 页面title
   favicon: /favicon.png
-  board: <p>欢迎交流与分享经验!</p> # 站点公告
+  board: <p>Aiming to foster productivity</p> # 站点公告
   copyright: false # 底部版权信息
 
 # config
@@ -45,7 +45,7 @@ config:
   thumbnail: false # enable posts thumbnail, options: true, false
   excerpt_link: Read More
   #New
-  isNewTabLinks: false #是否链接打开新标签页
+  isNewTabLinks: true #是否链接打开新标签页
   autoUnfold: true # 默认展开文章目录
 
 # Pagination
@@ -88,7 +88,7 @@ search:
 
 # Donate
 donate:
-  enable: true
+  enable: false
   # 微信打赏
   wechatpay:
     qrcode: images/donate/wechatpayimg.png
@@ -113,7 +113,7 @@ share:
 # 项目仓库信息（将会覆盖 github 项）
 repository:
   platform: github # 托管平台（github | gitee）
-  username: cofess # 用户名
+  username: YixinZhang2002 # 用户名
 
 # Comment
 # Gitment
@@ -122,7 +122,7 @@ comment:
   type: valine  # 启用哪种评论系统
   disqus:  # enter disqus shortname here
   youyan: 
-    uid: 1783844 # enter youyan uid 
+    uid: # enter youyan uid 
   livere:
     uid: # enter youyan uid 
   gitment:
@@ -138,14 +138,14 @@ comment:
     ClientID:  #必须. GitHub Application Client ID.
     ClientSecret:  #必须. GitHub Application Client Secret.
     enableHotKey: true
-    language: zh-CN
+    language: en
     
   valine: # Valine. https://valine.js.org
     appid:  # your leancloud application appid
     appkey:  # your leancloud application appkey
     notify: false # mail notifier , https://github.com/xCss/Valine/wiki
     verify: false # Verification code
-    placeholder: Just go go # comment box placeholder
+    placeholder:  # comment box placeholder
     avatar: mm # gravatar style
     meta: nick,mail,link # custom comment header
     pageSize: 10 # pagination size
@@ -202,20 +202,20 @@ profile:
   articleSelfBlock: false # 关闭文章下方的自我介绍
   avatar: images/avatar.jpg
   gravatar: # Gravatar email address, if you enable Gravatar, your avatar config will be overriden
-  author: 昵称
-  author_title: Web Developer & Designer
-  author_description: 个人简介。
-  location: Shenzhen, China
-  follow: https://github.com/cofess
+  author: Yi-xin Zhang
+  author_title: Tech enthusiast
+  author_description: Undergraduate, Harbin Institute of Technology, China. Applying for MSc. Curriculum Vitae
+  location: Harbin, China
+  follow: https://github.com/yixinzhang2002
   # Social Links
   social:
     links:
-      github: https://github.com/cofess
-      weibo: http://weibo.com/cofess
-      twitter: https://twitter.com/iwebued
+      github: https://github.com/yixinzhang2002
+      linkedin: https://linkedin.com/in/zhang-yi-xin-b24395268/
+      email: mailto:zyx83028016zyx@gmail.com
       # facebook: /
       # dribbble: /
-      behance: https://www.behance.net/cofess
+      # behance: https://www.behance.net/cofess
       rss: atom.xml
     link_tooltip: true # enable the social link tooltip, options: true, false
   # My Skills 
@@ -229,11 +229,12 @@ profile:
     平面设计: ★★★☆☆
   # My Personal Links
   links:
-    Github: https://github.com/cofess
-    Blog: http://blog.cofess.com
-    微博: http://weibo.com/cofess
-    花瓣: http://huaban.com/cofess
-    Behance: https://www.behance.net/cofess
+    Github: https://github.com/yixinzhang2002
+    Blog: http://asoulfan.cc
+    CV: https://github.com/yixinzhang2002
+    #微博: http://weibo.com/cofess
+    #花瓣: http://huaban.com/cofess
+    #Behance: https://www.behance.net/cofess
   # My Personal Labels
   labels:
     - 前端
@@ -248,5 +249,5 @@ profile:
       date: 2016
   # My Personal Projects
   projects:
-    cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
-    cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
+    #cofess/gulp-startpro: https://github.com/cofess/gulp-startpro
+    #cofess/hexo-theme-pure: https://github.com/cofess/hexo-theme-pure
